@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/trungnguyen/Documents/PCA-Implementation-Scala/PCA-Breeze/src/main/scala/Main.scala:143:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : IndexedSeq[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: Array[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    val new_eig_mat = reduceDim(eig_mat, keep_idx, dim, reduced_dim)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
