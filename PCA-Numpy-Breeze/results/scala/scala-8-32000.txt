@@ -1,0 +1,20 @@
+# started on Sun May 31 16:01:02 2020
+
+
+ Performance counter stats for 'sbt run':
+
+         71,886.06 msec task-clock                #    3.400 CPUs utilized          
+            38,528      context-switches          #    0.536 K/sec                  
+             2,548      cpu-migrations            #    0.035 K/sec                  
+           253,316      page-faults               #    0.004 M/sec                  
+   111,570,257,761      cycles                    #    1.552 GHz                    
+   167,573,868,096      instructions              #    1.50  insn per cycle         
+    30,679,942,988      branches                  #  426.786 M/sec                  
+       837,681,425      branch-misses             #    2.73% of all branches        
+
+      21.143162595 seconds time elapsed
+
+      70.088157000 seconds user
+       2.327390000 seconds sys
+
+

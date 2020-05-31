@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import glob
 
-FNAME = './data/64_32000_2_2.csv'
+FNAME = './data/128_32000_2_2.csv'
 
 def clean_output(outp_name):
     """

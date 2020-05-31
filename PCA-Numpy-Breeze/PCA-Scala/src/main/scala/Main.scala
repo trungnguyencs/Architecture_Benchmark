@@ -12,10 +12,12 @@ object Main extends App {
 
   /** Get csv data file name list */
   def getListOfFiles(dir: String): List[String] = {
-    val file = new File(dir)
-    file.listFiles.filter(_.isFile)
-      .filter(_.getName.endsWith("csv"))
-      .map(_.getPath).toList
+    val file = List("../data/128_32000_2_2.csv")
+    return file
+    // val file = new File(dir)
+    // file.listFiles.filter(_.isFile)
+    //   .filter(_.getName.endsWith("csv"))
+    //   .map(_.getPath).toList
   }
 
   /** Get list of part containing dim, total_sample, total_class, reduced_dim from csv file name  */
