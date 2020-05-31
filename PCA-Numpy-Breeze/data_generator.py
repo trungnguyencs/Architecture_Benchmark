@@ -4,11 +4,11 @@ import numpy as np
 np.random.seed(2019)
 
 dim_lst = []
-for i in range(1,8):
-	dim_lst.append(4*i)
+for i in range(6):
+	dim_lst.append(4*2**i)
 total_sample_lst = []
-for i in range(10):
-	total_sample_lst.append(50*2**i)
+for i in range(6):
+	total_sample_lst.append(1000*2**i)
 
 total_class = 2
 reduce_dim = 2
