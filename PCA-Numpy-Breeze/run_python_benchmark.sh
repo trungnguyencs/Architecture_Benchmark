@@ -1,0 +1,1 @@
+sudo perf stat -o ./results/py/py-64-32000.txt python PCA-Python.py

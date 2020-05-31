@@ -1,0 +1,20 @@
+# started on Sun May 31 15:20:31 2020
+
+
+ Performance counter stats for 'python PCA-Python.py':
+
+         21,906.59 msec task-clock                #    1.078 CPUs utilized          
+               116      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+            57,881      page-faults               #    0.003 M/sec                  
+    36,883,422,148      cycles                    #    1.684 GHz                    
+    82,867,644,739      instructions              #    2.25  insn per cycle         
+    18,493,667,672      branches                  #  844.206 M/sec                  
+        50,970,307      branch-misses             #    0.28% of all branches        
+
+      20.314978511 seconds time elapsed
+
+      20.928589000 seconds user
+       0.980027000 seconds sys
+
+

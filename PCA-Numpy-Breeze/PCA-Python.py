@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 import glob
 
+FNAME = './data/64_32000_2_2.csv'
+
 def clean_output(outp_name):
     """
     Delete the output csv file if exits
@@ -80,8 +82,9 @@ if __name__ == '__main__':
     outp_name = 'output_python.csv'
     clean_output(outp_name)
 
-    f_list = glob.glob(os.path.join('./data', '*.csv'))
-    
+    # f_list = glob.glob(os.path.join('./data', '*.csv'))
+    f_list = [FNAME]
+
     cols = ['dim', 'total_sample', 'total_class', 'reduced_dim',\
      'load_data_runtime', 'total_runtime', 'memory_usage']
     output = pd.DataFrame(columns=cols)

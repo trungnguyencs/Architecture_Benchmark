@@ -4,7 +4,7 @@
 		module="pca-scala-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20200524194323"
+		publication="20200528235006"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

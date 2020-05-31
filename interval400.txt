@@ -1,0 +1,67 @@
+# started on Sat May 30 02:51:33 2020
+
+#           time             counts unit events
+     0.400113476           1,504.23 msec task-clock                #    3.761 CPUs utilized          
+     0.400113476                 42      context-switches          #    0.028 K/sec                  
+     0.400113476                  0      cpu-migrations            #    0.000 K/sec                  
+     0.400113476             10,039      page-faults               #    0.007 M/sec                  
+     0.400113476      2,401,358,764      cycles                    #    1.596 GHz                    
+     0.400113476      2,088,390,749      instructions              #    0.87  insn per cycle         
+     0.400113476        405,120,647      branches                  #  269.320 M/sec                  
+     0.400113476          7,703,103      branch-misses             #    1.90% of all branches        
+     0.800530695             384.29 msec task-clock                #    0.961 CPUs utilized          
+     0.800530695                 10      context-switches          #    0.011 K/sec                  
+     0.800530695                  0      cpu-migrations            #    0.000 K/sec                  
+     0.800530695              6,158      page-faults               #    0.007 M/sec                  
+     0.800530695        630,002,878      cycles                    #    0.667 GHz                    
+     0.800530695        949,256,537      instructions              #    0.63  insn per cycle         
+     0.800530695        203,949,576      branches                  #  215.988 M/sec                  
+     0.800530695          5,557,343      branch-misses             #    1.82% of all branches        
+     1.200860977             382.41 msec task-clock                #    0.956 CPUs utilized          
+     1.200860977                 51      context-switches          #    0.067 K/sec                  
+     1.200860977                  0      cpu-migrations            #    0.000 K/sec                  
+     1.200860977              7,933      page-faults               #    0.010 M/sec                  
+     1.200860977        612,629,263      cycles                    #    0.809 GHz                    
+     1.200860977        829,137,364      instructions              #    0.68  insn per cycle         
+     1.200860977        179,553,851      branches                  #  237.198 M/sec                  
+     1.200860977          6,685,788      branch-misses             #    2.54% of all branches        
+     1.601157384             394.83 msec task-clock                #    0.987 CPUs utilized          
+     1.601157384                 44      context-switches          #    0.066 K/sec                  
+     1.601157384                  0      cpu-migrations            #    0.000 K/sec                  
+     1.601157384             13,286      page-faults               #    0.020 M/sec                  
+     1.601157384        635,303,562      cycles                    #    0.953 GHz                    
+     1.601157384        805,691,293      instructions              #    0.75  insn per cycle         
+     1.601157384        173,890,311      branches                  #  260.923 M/sec                  
+     1.601157384          5,889,374      branch-misses             #    2.45% of all branches        
+     2.001463708             400.29 msec task-clock                #    1.001 CPUs utilized          
+     2.001463708                  0      context-switches          #    0.000 K/sec                  
+     2.001463708                  0      cpu-migrations            #    0.000 K/sec                  
+     2.001463708             13,238      page-faults               #    0.022 M/sec                  
+     2.001463708        678,904,520      cycles                    #    1.107 GHz                    
+     2.001463708        965,659,185      instructions              #    0.97  insn per cycle         
+     2.001463708        202,761,535      branches                  #  330.655 M/sec                  
+     2.001463708          5,769,637      branch-misses             #    2.48% of all branches        
+     2.401790211             384.44 msec task-clock                #    0.961 CPUs utilized          
+     2.401790211                 12      context-switches          #    0.021 K/sec                  
+     2.401790211                  0      cpu-migrations            #    0.000 K/sec                  
+     2.401790211              6,777      page-faults               #    0.012 M/sec                  
+     2.401790211        633,240,391      cycles                    #    1.101 GHz                    
+     2.401790211        851,520,151      instructions              #    0.91  insn per cycle         
+     2.401790211        185,598,188      branches                  #  322.733 M/sec                  
+     2.401790211          6,522,247      branch-misses             #    2.90% of all branches        
+     2.802096259             400.29 msec task-clock                #    1.001 CPUs utilized          
+     2.802096259                  0      context-switches          #    0.000 K/sec                  
+     2.802096259                  0      cpu-migrations            #    0.000 K/sec                  
+     2.802096259             10,818      page-faults               #    0.020 M/sec                  
+     2.802096259        678,907,271      cycles                    #    1.234 GHz                    
+     2.802096259      1,442,304,146      instructions              #    1.61  insn per cycle         
+     2.802096259        295,315,314      branches                  #  536.826 M/sec                  
+     2.802096259          1,794,867      branch-misses             #    0.76% of all branches        
+     3.073264665             271.01 msec task-clock                #    0.678 CPUs utilized          
+     3.073264665                  2      context-switches          #    0.004 K/sec                  
+     3.073264665                  0      cpu-migrations            #    0.000 K/sec                  
+     3.073264665              7,074      page-faults               #    0.014 M/sec                  
+     3.073264665        459,558,717      cycles                    #    0.892 GHz                    
+     3.073264665        328,480,108      instructions              #    0.39  insn per cycle         
+     3.073264665         83,096,433      branches                  #  161.281 M/sec                  
+     3.073264665          1,549,241      branch-misses             #    0.72% of all branches        
