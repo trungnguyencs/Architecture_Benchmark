@@ -1,597 +1,635 @@
-# started on Sun May 31 16:19:56 2020
+# started on Sun May 31 18:58:22 2020
 
 #           time             counts unit events
-     0.500163064           1,606.49 msec task-clock                #    3.213 CPUs utilized          
-     0.500163064                 37      context-switches          #    0.023 K/sec                  
-     0.500163064                  0      cpu-migrations            #    0.000 K/sec                  
-     0.500163064              9,434      page-faults               #    0.006 M/sec                  
-     0.500163064      2,597,475,722      cycles                    #    1.617 GHz                    
-     0.500163064      2,313,833,207      instructions              #    0.89  insn per cycle         
-     0.500163064        469,896,413      branches                  #  292.499 M/sec                  
-     0.500163064         11,764,918      branch-misses             #    2.50% of all branches        
-     1.000566119             500.37 msec task-clock                #    1.001 CPUs utilized          
-     1.000566119                  1      context-switches          #    0.001 K/sec                  
-     1.000566119                  0      cpu-migrations            #    0.000 K/sec                  
-     1.000566119              7,343      page-faults               #    0.007 M/sec                  
-     1.000566119        848,607,458      cycles                    #    0.806 GHz                    
-     1.000566119      1,981,056,516      instructions              #    1.15  insn per cycle         
-     1.000566119        487,530,317      branches                  #  462.804 M/sec                  
-     1.000566119          1,518,698      branch-misses             #    0.32% of all branches        
-     1.500883783             500.30 msec task-clock                #    1.001 CPUs utilized          
-     1.500883783                  0      context-switches          #    0.000 K/sec                  
-     1.500883783                  0      cpu-migrations            #    0.000 K/sec                  
-     1.500883783              1,118      page-faults               #    0.001 M/sec                  
-     1.500883783        848,512,136      cycles                    #    0.976 GHz                    
-     1.500883783      1,953,464,727      instructions              #    1.36  insn per cycle         
-     1.500883783        424,960,198      branches                  #  488.993 M/sec                  
-     1.500883783          1,031,492      branch-misses             #    0.22% of all branches        
-     2.001200730             500.28 msec task-clock                #    1.001 CPUs utilized          
-     2.001200730                  1      context-switches          #    0.001 K/sec                  
-     2.001200730                  0      cpu-migrations            #    0.000 K/sec                  
-     2.001200730              1,608      page-faults               #    0.002 M/sec                  
-     2.001200730        848,477,784      cycles                    #    1.092 GHz                    
-     2.001200730      1,952,558,000      instructions              #    1.52  insn per cycle         
-     2.001200730        424,098,247      branches                  #  545.914 M/sec                  
-     2.001200730          1,022,890      branch-misses             #    0.23% of all branches        
-     2.501519091             500.28 msec task-clock                #    1.001 CPUs utilized          
-     2.501519091                  1      context-switches          #    0.001 K/sec                  
-     2.501519091                  0      cpu-migrations            #    0.000 K/sec                  
-     2.501519091              1,036      page-faults               #    0.001 M/sec                  
-     2.501519091        848,485,305      cycles                    #    1.176 GHz                    
-     2.501519091      1,957,142,171      instructions              #    1.63  insn per cycle         
-     2.501519091        425,196,834      branches                  #  589.288 M/sec                  
-     2.501519091          1,045,628      branch-misses             #    0.23% of all branches        
-     3.001881316             500.32 msec task-clock                #    1.001 CPUs utilized          
-     3.001881316                  1      context-switches          #    0.001 K/sec                  
-     3.001881316                  0      cpu-migrations            #    0.000 K/sec                  
-     3.001881316                882      page-faults               #    0.001 M/sec                  
-     3.001881316        848,547,418      cycles                    #    1.239 GHz                    
-     3.001881316      2,073,624,050      instructions              #    1.82  insn per cycle         
-     3.001881316        509,304,410      branches                  #  743.864 M/sec                  
-     3.001881316          1,084,743      branch-misses             #    0.24% of all branches        
-     3.502205864             500.26 msec task-clock                #    1.001 CPUs utilized          
-     3.502205864                  3      context-switches          #    0.005 K/sec                  
-     3.502205864                  0      cpu-migrations            #    0.000 K/sec                  
-     3.502205864              1,135      page-faults               #    0.002 M/sec                  
-     3.502205864        848,437,066      cycles                    #    1.289 GHz                    
-     3.502205864      1,954,425,434      instructions              #    1.78  insn per cycle         
-     3.502205864        425,456,977      branches                  #  646.268 M/sec                  
-     3.502205864          1,019,370      branch-misses             #    0.23% of all branches        
-     4.002526484             500.28 msec task-clock                #    1.001 CPUs utilized          
-     4.002526484                  2      context-switches          #    0.003 K/sec                  
-     4.002526484                  0      cpu-migrations            #    0.000 K/sec                  
-     4.002526484              1,482      page-faults               #    0.002 M/sec                  
-     4.002526484        848,464,258      cycles                    #    1.329 GHz                    
-     4.002526484      1,958,578,881      instructions              #    1.84  insn per cycle         
-     4.002526484        426,341,642      branches                  #  667.648 M/sec                  
-     4.002526484            983,875      branch-misses             #    0.22% of all branches        
-     4.502844240             500.29 msec task-clock                #    1.001 CPUs utilized          
-     4.502844240                  1      context-switches          #    0.002 K/sec                  
-     4.502844240                  0      cpu-migrations            #    0.000 K/sec                  
-     4.502844240                808      page-faults               #    0.001 M/sec                  
-     4.502844240        848,485,922      cycles                    #    1.361 GHz                    
-     4.502844240      2,030,848,652      instructions              #    1.95  insn per cycle         
-     4.502844240        475,682,098      branches                  #  763.280 M/sec                  
-     4.502844240          1,018,614      branch-misses             #    0.23% of all branches        
-     5.003185590             500.29 msec task-clock                #    1.001 CPUs utilized          
-     5.003185590                  2      context-switches          #    0.003 K/sec                  
-     5.003185590                  0      cpu-migrations            #    0.000 K/sec                  
-     5.003185590                921      page-faults               #    0.002 M/sec                  
-     5.003185590        848,493,173      cycles                    #    1.389 GHz                    
-     5.003185590      2,010,817,292      instructions              #    1.96  insn per cycle         
-     5.003185590        462,039,178      branches                  #  756.305 M/sec                  
-     5.003185590          1,057,850      branch-misses             #    0.23% of all branches        
-     5.503524013             500.30 msec task-clock                #    1.001 CPUs utilized          
-     5.503524013                  1      context-switches          #    0.002 K/sec                  
-     5.503524013                  0      cpu-migrations            #    0.000 K/sec                  
-     5.503524013              1,144      page-faults               #    0.002 M/sec                  
-     5.503524013        848,519,672      cycles                    #    1.412 GHz                    
-     5.503524013      1,960,150,178      instructions              #    1.95  insn per cycle         
-     5.503524013        426,781,098      branches                  #  710.283 M/sec                  
-     5.503524013          1,029,795      branch-misses             #    0.23% of all branches        
-     6.003835187             500.28 msec task-clock                #    1.001 CPUs utilized          
-     6.003835187                  1      context-switches          #    0.002 K/sec                  
-     6.003835187                  0      cpu-migrations            #    0.000 K/sec                  
-     6.003835187              1,427      page-faults               #    0.002 M/sec                  
-     6.003835187        848,473,290      cycles                    #    1.432 GHz                    
-     6.003835187      1,958,892,268      instructions              #    1.97  insn per cycle         
-     6.003835187        426,738,256      branches                  #  720.259 M/sec                  
-     6.003835187            998,810      branch-misses             #    0.22% of all branches        
-     6.504153662             500.28 msec task-clock                #    1.001 CPUs utilized          
-     6.504153662                  1      context-switches          #    0.002 K/sec                  
-     6.504153662                  0      cpu-migrations            #    0.000 K/sec                  
-     6.504153662                771      page-faults               #    0.001 M/sec                  
-     6.504153662        848,483,454      cycles                    #    1.449 GHz                    
-     6.504153662      2,083,336,075      instructions              #    2.12  insn per cycle         
-     6.504153662        511,415,022      branches                  #  873.636 M/sec                  
-     6.504153662          1,071,077      branch-misses             #    0.24% of all branches        
-     7.004485553             500.28 msec task-clock                #    1.001 CPUs utilized          
-     7.004485553                  2      context-switches          #    0.003 K/sec                  
-     7.004485553                  0      cpu-migrations            #    0.000 K/sec                  
-     7.004485553              1,005      page-faults               #    0.002 M/sec                  
-     7.004485553        848,472,791      cycles                    #    1.465 GHz                    
-     7.004485553      1,953,123,182      instructions              #    2.01  insn per cycle         
-     7.004485553        424,526,847      branches                  #  732.817 M/sec                  
-     7.004485553            986,982      branch-misses             #    0.22% of all branches        
-     7.504799589             500.23 msec task-clock                #    1.000 CPUs utilized          
-     7.504799589                  5      context-switches          #    0.009 K/sec                  
-     7.504799589                  0      cpu-migrations            #    0.000 K/sec                  
-     7.504799589              1,144      page-faults               #    0.002 M/sec                  
-     7.504799589        848,377,690      cycles                    #    1.478 GHz                    
-     7.504799589      1,951,404,959      instructions              #    2.02  insn per cycle         
-     7.504799589        424,404,490      branches                  #  739.334 M/sec                  
-     7.504799589          1,013,724      branch-misses             #    0.23% of all branches        
-     8.005130013             500.30 msec task-clock                #    1.001 CPUs utilized          
-     8.005130013                  1      context-switches          #    0.002 K/sec                  
-     8.005130013                  0      cpu-migrations            #    0.000 K/sec                  
-     8.005130013              1,378      page-faults               #    0.002 M/sec                  
-     8.005130013        848,503,900      cycles                    #    1.490 GHz                    
-     8.005130013      1,951,950,699      instructions              #    2.04  insn per cycle         
-     8.005130013        424,934,499      branches                  #  746.248 M/sec                  
-     8.005130013            992,630      branch-misses             #    0.22% of all branches        
-     8.505438027             500.29 msec task-clock                #    1.001 CPUs utilized          
-     8.505438027                  0      context-switches          #    0.000 K/sec                  
-     8.505438027                  0      cpu-migrations            #    0.000 K/sec                  
-     8.505438027                769      page-faults               #    0.001 M/sec                  
-     8.505438027        848,504,272      cycles                    #    1.501 GHz                    
-     8.505438027      2,079,487,455      instructions              #    2.19  insn per cycle         
-     8.505438027        510,052,142      branches                  #  902.171 M/sec                  
-     8.505438027          1,068,970      branch-misses             #    0.24% of all branches        
-     9.005767941             500.29 msec task-clock                #    1.001 CPUs utilized          
-     9.005767941                  1      context-switches          #    0.002 K/sec                  
-     9.005767941                  0      cpu-migrations            #    0.000 K/sec                  
-     9.005767941              1,038      page-faults               #    0.002 M/sec                  
-     9.005767941        848,495,979      cycles                    #    1.510 GHz                    
-     9.005767941      1,946,504,118      instructions              #    2.06  insn per cycle         
-     9.005767941        423,188,327      branches                  #  753.345 M/sec                  
-     9.005767941          1,053,158      branch-misses             #    0.23% of all branches        
-     9.506083402             500.28 msec task-clock                #    1.001 CPUs utilized          
-     9.506083402                  1      context-switches          #    0.002 K/sec                  
-     9.506083402                  0      cpu-migrations            #    0.000 K/sec                  
-     9.506083402              1,144      page-faults               #    0.002 M/sec                  
-     9.506083402        848,477,331      cycles                    #    1.519 GHz                    
-     9.506083402      1,945,616,441      instructions              #    2.07  insn per cycle         
-     9.506083402        423,264,649      branches                  #  757.845 M/sec                  
-     9.506083402          1,044,760      branch-misses             #    0.23% of all branches        
-    10.006394981             500.28 msec task-clock                #    1.001 CPUs utilized          
-    10.006394981                  1      context-switches          #    0.002 K/sec                  
-    10.006394981                  0      cpu-migrations            #    0.000 K/sec                  
-    10.006394981              1,355      page-faults               #    0.002 M/sec                  
-    10.006394981        848,470,600      cycles                    #    1.527 GHz                    
-    10.006394981      1,951,243,116      instructions              #    2.08  insn per cycle         
-    10.006394981        424,990,811      branches                  #  764.923 M/sec                  
-    10.006394981            988,525      branch-misses             #    0.22% of all branches        
-    10.506739823             500.28 msec task-clock                #    1.001 CPUs utilized          
-    10.506739823                  3      context-switches          #    0.005 K/sec                  
-    10.506739823                  0      cpu-migrations            #    0.000 K/sec                  
-    10.506739823                768      page-faults               #    0.001 M/sec                  
-    10.506739823        848,474,526      cycles                    #    1.534 GHz                    
-    10.506739823      2,076,242,978      instructions              #    2.23  insn per cycle         
-    10.506739823        509,449,849      branches                  #  921.306 M/sec                  
-    10.506739823          1,085,388      branch-misses             #    0.24% of all branches        
-    11.007077692             500.31 msec task-clock                #    1.001 CPUs utilized          
-    11.007077692                  1      context-switches          #    0.002 K/sec                  
-    11.007077692                  0      cpu-migrations            #    0.000 K/sec                  
-    11.007077692              1,078      page-faults               #    0.002 M/sec                  
-    11.007077692        848,515,257      cycles                    #    1.541 GHz                    
-    11.007077692      1,955,350,686      instructions              #    2.11  insn per cycle         
-    11.007077692        425,321,882      branches                  #  772.510 M/sec                  
-    11.007077692          1,035,349      branch-misses             #    0.23% of all branches        
-    11.507393418             500.25 msec task-clock                #    1.000 CPUs utilized          
-    11.507393418                  4      context-switches          #    0.007 K/sec                  
-    11.507393418                  0      cpu-migrations            #    0.000 K/sec                  
-    11.507393418              1,141      page-faults               #    0.002 M/sec                  
-    11.507393418        848,406,819      cycles                    #    1.547 GHz                    
-    11.507393418      1,955,586,669      instructions              #    2.12  insn per cycle         
-    11.507393418        425,711,764      branches                  #  776.303 M/sec                  
-    11.507393418          1,021,912      branch-misses             #    0.23% of all branches        
-    12.007722528             500.30 msec task-clock                #    1.001 CPUs utilized          
-    12.007722528                  1      context-switches          #    0.002 K/sec                  
-    12.007722528                  0      cpu-migrations            #    0.000 K/sec                  
-    12.007722528              1,345      page-faults               #    0.002 M/sec                  
-    12.007722528        848,507,514      cycles                    #    1.553 GHz                    
-    12.007722528      1,955,612,222      instructions              #    2.12  insn per cycle         
-    12.007722528        426,203,589      branches                  #  780.050 M/sec                  
-    12.007722528            971,056      branch-misses             #    0.22% of all branches        
-    12.508038909             500.28 msec task-clock                #    1.001 CPUs utilized          
-    12.508038909                  1      context-switches          #    0.002 K/sec                  
-    12.508038909                  0      cpu-migrations            #    0.000 K/sec                  
-    12.508038909                773      page-faults               #    0.001 M/sec                  
-    12.508038909        848,478,020      cycles                    #    1.558 GHz                    
-    12.508038909      2,073,634,645      instructions              #    2.26  insn per cycle         
-    12.508038909        509,091,058      branches                  #  934.908 M/sec                  
-    12.508038909          1,077,774      branch-misses             #    0.24% of all branches        
+     0.500158357        797,680,102      cycles                                                      
+     0.500158357        877,997,076      instructions              #    1.10  insn per cycle         
+     0.500158357        168,691,091      branches                                                    
+     0.500158357          6,643,073      branch-misses             #    3.94% of all branches        
+     0.500158357         19,677,318      L1-dcache-load-misses                                       
+     0.500158357         25,645,974      L1-icache-load-misses                                       
+     0.500158357            406,708      LLC-load-misses                                             
+     0.500158357            103,928      LLC-store-misses                                            
+     0.500158357         11,491,419      l2_rqsts.miss                                               
+     1.000634270      1,288,044,781      cycles                                                      
+     1.000634270      1,833,252,649      instructions              #    1.76  insn per cycle         
+     1.000634270        355,710,801      branches                                                    
+     1.000634270         11,298,007      branch-misses             #    4.31% of all branches        
+     1.000634270         40,385,601      L1-dcache-load-misses                                       
+     1.000634270         27,172,060      L1-icache-load-misses                                       
+     1.000634270            289,756      LLC-load-misses                                             
+     1.000634270            153,377      LLC-store-misses                                            
+     1.000634270         16,748,785      l2_rqsts.miss                                               
+     1.500985673      1,389,595,069      cycles                                                      
+     1.500985673      2,011,806,351      instructions              #    1.74  insn per cycle         
+     1.500985673        389,598,530      branches                                                    
+     1.500985673         12,872,499      branch-misses             #    4.23% of all branches        
+     1.500985673         39,086,131      L1-dcache-load-misses                                       
+     1.500985673         27,760,958      L1-icache-load-misses                                       
+     1.500985673            395,611      LLC-load-misses                                             
+     1.500985673            135,559      LLC-store-misses                                            
+     1.500985673         19,001,862      l2_rqsts.miss                                               
+     2.001347332      2,096,675,016      cycles                                                      
+     2.001347332      2,624,487,263      instructions              #    1.88  insn per cycle         
+     2.001347332        490,501,990      branches                                                    
+     2.001347332         19,947,789      branch-misses             #    5.68% of all branches        
+     2.001347332         47,772,407      L1-dcache-load-misses                                       
+     2.001347332         50,086,207      L1-icache-load-misses                                       
+     2.001347332            692,123      LLC-load-misses                                             
+     2.001347332            280,246      LLC-store-misses                                            
+     2.001347332         24,579,140      l2_rqsts.miss                                               
+     2.501649790      1,483,225,367      cycles                                                      
+     2.501649790      2,121,528,123      instructions              #    1.50  insn per cycle         
+     2.501649790        417,775,424      branches                                                    
+     2.501649790         12,510,919      branch-misses             #    3.43% of all branches        
+     2.501649790         39,049,135      L1-dcache-load-misses                                       
+     2.501649790         25,632,236      L1-icache-load-misses                                       
+     2.501649790            691,836      LLC-load-misses                                             
+     2.501649790            320,088      LLC-store-misses                                            
+     2.501649790         18,912,658      l2_rqsts.miss                                               
+     3.002039023      2,170,829,212      cycles                                                      
+     3.002039023      2,776,556,575      instructions              #    1.81  insn per cycle         
+     3.002039023        557,181,324      branches                                                    
+     3.002039023         17,596,851      branch-misses             #    4.44% of all branches        
+     3.002039023         71,889,829      L1-dcache-load-misses                                       
+     3.002039023         55,865,193      L1-icache-load-misses                                       
+     3.002039023          1,343,974      LLC-load-misses                                             
+     3.002039023            480,122      LLC-store-misses                                            
+     3.002039023         32,245,247      l2_rqsts.miss                                               
+     3.502470940      3,119,453,538      cycles                                                      
+     3.502470940      4,410,658,112      instructions              #    2.50  insn per cycle         
+     3.502470940        827,864,097      branches                                                    
+     3.502470940         23,074,926      branch-misses             #    5.04% of all branches        
+     3.502470940         88,218,015      L1-dcache-load-misses                                       
+     3.502470940         60,667,744      L1-icache-load-misses                                       
+     3.502470940          2,792,316      LLC-load-misses                                             
+     3.502470940            846,895      LLC-store-misses                                            
+     3.502470940         44,634,421      l2_rqsts.miss                                               
+     4.002848922      3,220,771,114      cycles                                                      
+     4.002848922      4,480,516,803      instructions              #    2.30  insn per cycle         
+     4.002848922        862,962,677      branches                                                    
+     4.002848922         21,443,743      branch-misses             #    4.21% of all branches        
+     4.002848922         91,502,457      L1-dcache-load-misses                                       
+     4.002848922         37,918,004      L1-icache-load-misses                                       
+     4.002848922          2,976,489      LLC-load-misses                                             
+     4.002848922          1,059,568      LLC-store-misses                                            
+     4.002848922         45,368,179      l2_rqsts.miss                                               
+     4.503222388      1,874,618,278      cycles                                                      
+     4.503222388      2,718,010,220      instructions              #    1.40  insn per cycle         
+     4.503222388        508,169,911      branches                                                    
+     4.503222388         15,150,405      branch-misses             #    2.98% of all branches        
+     4.503222388         45,636,516      L1-dcache-load-misses                                       
+     4.503222388         38,805,465      L1-icache-load-misses                                       
+     4.503222388          1,383,550      LLC-load-misses                                             
+     4.503222388            553,523      LLC-store-misses                                            
+     4.503222388         32,633,202      l2_rqsts.miss                                               
+     5.003544848      3,396,034,853      cycles                                                      
+     5.003544848      4,909,446,473      instructions              #    2.36  insn per cycle         
+     5.003544848        931,648,521      branches                                                    
+     5.003544848         28,251,119      branch-misses             #    5.13% of all branches        
+     5.003544848         99,132,392      L1-dcache-load-misses                                       
+     5.003544848         69,409,053      L1-icache-load-misses                                       
+     5.003544848          1,551,880      LLC-load-misses                                             
+     5.003544848            764,849      LLC-store-misses                                            
+     5.003544848         43,656,280      l2_rqsts.miss                                               
+     5.503922650      3,352,830,574      cycles                                                      
+     5.503922650      4,706,210,725      instructions              #    2.14  insn per cycle         
+     5.503922650        861,280,984      branches                                                    
+     5.503922650         26,272,887      branch-misses             #    4.54% of all branches        
+     5.503922650         89,369,432      L1-dcache-load-misses                                       
+     5.503922650         65,563,000      L1-icache-load-misses                                       
+     5.503922650          2,540,087      LLC-load-misses                                             
+     5.503922650            962,701      LLC-store-misses                                            
+     5.503922650         52,812,208      l2_rqsts.miss                                               
+     6.004410144      3,520,012,040      cycles                                                      
+     6.004410144      5,256,066,997      instructions              #    2.28  insn per cycle         
+     6.004410144        978,582,924      branches                                                    
+     6.004410144         25,581,539      branch-misses             #    4.18% of all branches        
+     6.004410144        116,051,685      L1-dcache-load-misses                                       
+     6.004410144         78,628,656      L1-icache-load-misses                                       
+     6.004410144          1,853,579      LLC-load-misses                                             
+     6.004410144            885,472      LLC-store-misses                                            
+     6.004410144         40,622,041      l2_rqsts.miss                                               
+     6.504929019      3,454,903,415      cycles                                                      
+     6.504929019      5,341,299,745      instructions              #    2.23  insn per cycle         
+     6.504929019        997,216,074      branches                                                    
+     6.504929019         28,544,868      branch-misses             #    4.45% of all branches        
+     6.504929019         93,693,548      L1-dcache-load-misses                                       
+     6.504929019         67,603,088      L1-icache-load-misses                                       
+     6.504929019          1,487,795      LLC-load-misses                                             
+     6.504929019            696,599      LLC-store-misses                                            
+     6.504929019         38,501,767      l2_rqsts.miss                                               
+     7.005425212      2,530,449,334      cycles                                                      
+     7.005425212      3,635,682,437      instructions              #    1.51  insn per cycle         
+     7.005425212        439,697,301      branches                                                    
+     7.005425212          9,089,205      branch-misses             #    1.45% of all branches        
+     7.005425212         31,859,201      L1-dcache-load-misses                                       
+     7.005425212         23,954,277      L1-icache-load-misses                                       
+     7.005425212            872,791      LLC-load-misses                                             
+     7.005425212            159,952      LLC-store-misses                                            
+     7.005425212         24,680,309      l2_rqsts.miss                                               
+     7.505958008      1,952,941,262      cycles                                                      
+     7.505958008      2,754,937,830      instructions              #    1.16  insn per cycle         
+     7.505958008        522,696,171      branches                                                    
+     7.505958008         16,272,909      branch-misses             #    2.62% of all branches        
+     7.505958008         41,391,776      L1-dcache-load-misses                                       
+     7.505958008         24,449,628      L1-icache-load-misses                                       
+     7.505958008          2,476,163      LLC-load-misses                                             
+     7.505958008            541,154      LLC-store-misses                                            
+     7.505958008         26,063,434      l2_rqsts.miss                                               
+     8.006422840      3,137,943,731      cycles                                                      
+     8.006422840      4,854,543,930      instructions              #    2.00  insn per cycle         
+     8.006422840        892,719,724      branches                                                    
+     8.006422840         28,206,664      branch-misses             #    4.42% of all branches        
+     8.006422840         84,175,494      L1-dcache-load-misses                                       
+     8.006422840         62,676,436      L1-icache-load-misses                                       
+     8.006422840          1,394,229      LLC-load-misses                                             
+     8.006422840            609,484      LLC-store-misses                                            
+     8.006422840         33,218,707      l2_rqsts.miss                                               
+     8.506818799      2,965,293,430      cycles                                                      
+     8.506818799      4,152,827,901      instructions              #    1.69  insn per cycle         
+     8.506818799        781,320,776      branches                                                    
+     8.506818799         24,992,154      branch-misses             #    3.87% of all branches        
+     8.506818799         83,697,496      L1-dcache-load-misses                                       
+     8.506818799         59,007,746      L1-icache-load-misses                                       
+     8.506818799          1,672,292      LLC-load-misses                                             
+     8.506818799            826,420      LLC-store-misses                                            
+     8.506818799         38,610,149      l2_rqsts.miss                                               
+     9.007298755      3,557,817,343      cycles                                                      
+     9.007298755      5,342,872,910      instructions              #    2.12  insn per cycle         
+     9.007298755        986,260,114      branches                                                    
+     9.007298755         26,668,226      branch-misses             #    4.01% of all branches        
+     9.007298755         90,446,182      L1-dcache-load-misses                                       
+     9.007298755         71,305,345      L1-icache-load-misses                                       
+     9.007298755          1,996,550      LLC-load-misses                                             
+     9.007298755            874,840      LLC-store-misses                                            
+     9.007298755         42,335,753      l2_rqsts.miss                                               
+     9.507794684      3,385,836,928      cycles                                                      
+     9.507794684      6,025,332,078      instructions              #    2.35  insn per cycle         
+     9.507794684        817,762,879      branches                                                    
+     9.507794684         19,130,216      branch-misses             #    2.84% of all branches        
+     9.507794684         69,682,053      L1-dcache-load-misses                                       
+     9.507794684         23,638,601      L1-icache-load-misses                                       
+     9.507794684          2,109,733      LLC-load-misses                                             
+     9.507794684            856,690      LLC-store-misses                                            
+     9.507794684         34,504,776      l2_rqsts.miss                                               
+    10.008313924      2,102,583,806      cycles                                                      
+    10.008313924      4,001,438,469      instructions              #    1.58  insn per cycle         
+    10.008313924        518,953,364      branches                                                    
+    10.008313924         11,792,039      branch-misses             #    1.77% of all branches        
+    10.008313924         40,215,054      L1-dcache-load-misses                                       
+    10.008313924         15,612,258      L1-icache-load-misses                                       
+    10.008313924          1,768,438      LLC-load-misses                                             
+    10.008313924            570,381      LLC-store-misses                                            
+    10.008313924         22,941,910      l2_rqsts.miss                                               
+    10.508790418        792,211,300      cycles                                                      
+    10.508790418      1,513,638,794      instructions              #    0.62  insn per cycle         
+    10.508790418        177,219,535      branches                                                    
+    10.508790418          3,732,467      branch-misses             #    0.58% of all branches        
+    10.508790418         16,417,995      L1-dcache-load-misses                                       
+    10.508790418          8,652,853      L1-icache-load-misses                                       
+    10.508790418            670,334      LLC-load-misses                                             
+    10.508790418            169,613      LLC-store-misses                                            
+    10.508790418          8,276,202      l2_rqsts.miss                                               
+    11.009265041      1,163,777,800      cycles                                                      
+    11.009265041      2,289,600,275      instructions              #    0.95  insn per cycle         
+    11.009265041        405,534,757      branches                                                    
+    11.009265041          6,947,727      branch-misses             #    1.10% of all branches        
+    11.009265041         27,600,919      L1-dcache-load-misses                                       
+    11.009265041          7,665,956      L1-icache-load-misses                                       
+    11.009265041            343,056      LLC-load-misses                                             
+    11.009265041            185,181      LLC-store-misses                                            
+    11.009265041          9,827,944      l2_rqsts.miss                                               
+    11.509736991      1,439,140,958      cycles                                                      
+    11.509736991      3,503,664,217      instructions              #    1.49  insn per cycle         
+    11.509736991        597,085,208      branches                                                    
+    11.509736991          3,793,275      branch-misses             #    0.60% of all branches        
+    11.509736991         19,496,657      L1-dcache-load-misses                                       
+    11.509736991          3,524,305      L1-icache-load-misses                                       
+    11.509736991            908,200      LLC-load-misses                                             
+    11.509736991            617,123      LLC-store-misses                                            
+    11.509736991         14,548,973      l2_rqsts.miss                                               
+    12.010225794      1,556,874,277      cycles                                                      
+    12.010225794      3,100,997,905      instructions              #    1.33  insn per cycle         
+    12.010225794        520,825,627      branches                                                    
+    12.010225794          1,346,914      branch-misses             #    0.22% of all branches        
+    12.010225794         12,590,960      L1-dcache-load-misses                                       
+    12.010225794          1,165,037      L1-icache-load-misses                                       
+    12.010225794            692,237      LLC-load-misses                                             
+    12.010225794            636,496      LLC-store-misses                                            
+    12.010225794         11,531,045      l2_rqsts.miss                                               
+    12.510665150      1,184,430,007      cycles                                                      
+    12.510665150      3,279,802,538      instructions              #    1.44  insn per cycle         
+    12.510665150        546,124,820      branches                                                    
+    12.510665150          1,300,320      branch-misses             #    0.21% of all branches        
+    12.510665150         13,522,972      L1-dcache-load-misses                                       
+    12.510665150          1,122,572      L1-icache-load-misses                                       
+    12.510665150            726,456      LLC-load-misses                                             
+    12.510665150            691,469      LLC-store-misses                                            
+    12.510665150         12,321,563      l2_rqsts.miss                                               
 #           time             counts unit events
-    13.008387060             500.32 msec task-clock                #    1.001 CPUs utilized          
-    13.008387060                  1      context-switches          #    0.002 K/sec                  
-    13.008387060                  0      cpu-migrations            #    0.000 K/sec                  
-    13.008387060              1,387      page-faults               #    0.003 M/sec                  
-    13.008387060        848,539,461      cycles                    #    1.563 GHz                    
-    13.008387060      1,955,407,663      instructions              #    2.14  insn per cycle         
-    13.008387060        425,465,787      branches                  #  783.785 M/sec                  
-    13.008387060          1,015,953      branch-misses             #    0.23% of all branches        
-    13.508707823             500.29 msec task-clock                #    1.001 CPUs utilized          
-    13.508707823                  1      context-switches          #    0.002 K/sec                  
-    13.508707823                  0      cpu-migrations            #    0.000 K/sec                  
-    13.508707823                834      page-faults               #    0.002 M/sec                  
-    13.508707823        848,493,243      cycles                    #    1.568 GHz                    
-    13.508707823      1,958,029,769      instructions              #    2.14  insn per cycle         
-    13.508707823        426,124,855      branches                  #  787.284 M/sec                  
-    13.508707823          1,005,716      branch-misses             #    0.22% of all branches        
-    14.009027757             500.27 msec task-clock                #    1.001 CPUs utilized          
-    14.009027757                  2      context-switches          #    0.004 K/sec                  
-    14.009027757                  0      cpu-migrations            #    0.000 K/sec                  
-    14.009027757              1,326      page-faults               #    0.002 M/sec                  
-    14.009027757        848,458,242      cycles                    #    1.572 GHz                    
-    14.009027757      1,952,735,352      instructions              #    2.14  insn per cycle         
-    14.009027757        425,653,741      branches                  #  788.546 M/sec                  
-    14.009027757            986,445      branch-misses             #    0.22% of all branches        
-    14.509343467             500.27 msec task-clock                #    1.001 CPUs utilized          
-    14.509343467                  2      context-switches          #    0.004 K/sec                  
-    14.509343467                  0      cpu-migrations            #    0.000 K/sec                  
-    14.509343467                834      page-faults               #    0.002 M/sec                  
-    14.509343467        848,452,116      cycles                    #    1.576 GHz                    
-    14.509343467      2,074,460,498      instructions              #    2.28  insn per cycle         
-    14.509343467        509,366,315      branches                  #  946.017 M/sec                  
-    14.509343467          1,102,439      branch-misses             #    0.25% of all branches        
-    15.009676831             500.30 msec task-clock                #    1.001 CPUs utilized          
-    15.009676831                  1      context-switches          #    0.002 K/sec                  
-    15.009676831                  0      cpu-migrations            #    0.000 K/sec                  
-    15.009676831              1,289      page-faults               #    0.002 M/sec                  
-    15.009676831        848,504,006      cycles                    #    1.580 GHz                    
-    15.009676831      1,956,029,863      instructions              #    2.16  insn per cycle         
-    15.009676831        425,654,654      branches                  #  792.415 M/sec                  
-    15.009676831          1,035,640      branch-misses             #    0.23% of all branches        
-    15.510013449             500.27 msec task-clock                #    1.001 CPUs utilized          
-    15.510013449                  4      context-switches          #    0.007 K/sec                  
-    15.510013449                  0      cpu-migrations            #    0.000 K/sec                  
-    15.510013449                894      page-faults               #    0.002 M/sec                  
-    15.510013449        848,444,055      cycles                    #    1.583 GHz                    
-    15.510013449      1,957,106,041      instructions              #    2.16  insn per cycle         
-    15.510013449        425,742,846      branches                  #  794.339 M/sec                  
-    15.510013449          1,048,155      branch-misses             #    0.23% of all branches        
-    16.010328178             500.28 msec task-clock                #    1.001 CPUs utilized          
-    16.010328178                  1      context-switches          #    0.002 K/sec                  
-    16.010328178                  0      cpu-migrations            #    0.000 K/sec                  
-    16.010328178              1,313      page-faults               #    0.002 M/sec                  
-    16.010328178        848,482,559      cycles                    #    1.586 GHz                    
-    16.010328178      1,956,104,169      instructions              #    2.17  insn per cycle         
-    16.010328178        426,281,917      branches                  #  797.003 M/sec                  
-    16.010328178            982,961      branch-misses             #    0.22% of all branches        
-    16.510648493             500.30 msec task-clock                #    1.001 CPUs utilized          
-    16.510648493                  0      context-switches          #    0.000 K/sec                  
-    16.510648493                  0      cpu-migrations            #    0.000 K/sec                  
-    16.510648493                854      page-faults               #    0.002 M/sec                  
-    16.510648493        848,527,596      cycles                    #    1.590 GHz                    
-    16.510648493      2,085,193,084      instructions              #    2.31  insn per cycle         
-    16.510648493        511,156,610      branches                  #  957.565 M/sec                  
-    16.510648493            918,214      branch-misses             #    0.20% of all branches        
-    17.010980739             500.30 msec task-clock                #    1.001 CPUs utilized          
-    17.010980739                  1      context-switches          #    0.002 K/sec                  
-    17.010980739                  0      cpu-migrations            #    0.000 K/sec                  
-    17.010980739              1,245      page-faults               #    0.002 M/sec                  
-    17.010980739        848,500,054      cycles                    #    1.592 GHz                    
-    17.010980739      1,953,579,018      instructions              #    2.17  insn per cycle         
-    17.010980739        425,966,563      branches                  #  799.452 M/sec                  
-    17.010980739          1,017,449      branch-misses             #    0.23% of all branches        
-    17.511301683             500.27 msec task-clock                #    1.001 CPUs utilized          
-    17.511301683                  2      context-switches          #    0.004 K/sec                  
-    17.511301683                  0      cpu-migrations            #    0.000 K/sec                  
-    17.511301683                952      page-faults               #    0.002 M/sec                  
-    17.511301683        848,460,725      cycles                    #    1.595 GHz                    
-    17.511301683      1,964,503,116      instructions              #    2.19  insn per cycle         
-    17.511301683        427,695,756      branches                  #  804.101 M/sec                  
-    17.511301683          1,011,883      branch-misses             #    0.23% of all branches        
-    18.011650344             500.32 msec task-clock                #    1.001 CPUs utilized          
-    18.011650344                  1      context-switches          #    0.002 K/sec                  
-    18.011650344                  0      cpu-migrations            #    0.000 K/sec                  
-    18.011650344              1,305      page-faults               #    0.002 M/sec                  
-    18.011650344        848,532,507      cycles                    #    1.598 GHz                    
-    18.011650344      1,969,503,518      instructions              #    2.20  insn per cycle         
-    18.011650344        429,779,105      branches                  #  809.352 M/sec                  
-    18.011650344            936,026      branch-misses             #    0.21% of all branches        
-    18.511963019             500.26 msec task-clock                #    1.001 CPUs utilized          
-    18.511963019                  2      context-switches          #    0.004 K/sec                  
-    18.511963019                  0      cpu-migrations            #    0.000 K/sec                  
-    18.511963019                864      page-faults               #    0.002 M/sec                  
-    18.511963019        848,446,121      cycles                    #    1.600 GHz                    
-    18.511963019      2,085,801,796      instructions              #    2.33  insn per cycle         
-    18.511963019        511,176,045      branches                  #  964.146 M/sec                  
-    18.511963019            959,454      branch-misses             #    0.21% of all branches        
-    19.012293311             500.30 msec task-clock                #    1.001 CPUs utilized          
-    19.012293311                  1      context-switches          #    0.002 K/sec                  
-    19.012293311                  0      cpu-migrations            #    0.000 K/sec                  
-    19.012293311              1,216      page-faults               #    0.002 M/sec                  
-    19.012293311        848,499,827      cycles                    #    1.603 GHz                    
-    19.012293311      1,950,131,875      instructions              #    2.18  insn per cycle         
-    19.012293311        424,789,803      branches                  #  802.401 M/sec                  
-    19.012293311          1,042,866      branch-misses             #    0.23% of all branches        
-    19.512608873             500.26 msec task-clock                #    1.001 CPUs utilized          
-    19.512608873                  3      context-switches          #    0.006 K/sec                  
-    19.512608873                  0      cpu-migrations            #    0.000 K/sec                  
-    19.512608873              1,568      page-faults               #    0.003 M/sec                  
-    19.512608873        848,435,851      cycles                    #    1.605 GHz                    
-    19.512608873      1,950,691,982      instructions              #    2.18  insn per cycle         
-    19.512608873        424,294,980      branches                  #  802.599 M/sec                  
-    19.512608873          1,051,019      branch-misses             #    0.23% of all branches        
-    20.012917138             500.27 msec task-clock                #    1.001 CPUs utilized          
-    20.012917138                  2      context-switches          #    0.004 K/sec                  
-    20.012917138                  0      cpu-migrations            #    0.000 K/sec                  
-    20.012917138                694      page-faults               #    0.001 M/sec                  
-    20.012917138        848,444,216      cycles                    #    1.607 GHz                    
-    20.012917138      1,963,352,030      instructions              #    2.20  insn per cycle         
-    20.012917138        427,791,744      branches                  #  810.301 M/sec                  
-    20.012917138            993,562      branch-misses             #    0.22% of all branches        
-    20.513240412             500.29 msec task-clock                #    1.001 CPUs utilized          
-    20.513240412                  1      context-switches          #    0.002 K/sec                  
-    20.513240412                  0      cpu-migrations            #    0.000 K/sec                  
-    20.513240412                969      page-faults               #    0.002 M/sec                  
-    20.513240412        848,502,105      cycles                    #    1.609 GHz                    
-    20.513240412      2,091,673,360      instructions              #    2.35  insn per cycle         
-    20.513240412        512,614,360      branches                  #  972.210 M/sec                  
-    20.513240412            944,161      branch-misses             #    0.21% of all branches        
-    21.013568887             500.28 msec task-clock                #    1.001 CPUs utilized          
-    21.013568887                  2      context-switches          #    0.004 K/sec                  
-    21.013568887                  0      cpu-migrations            #    0.000 K/sec                  
-    21.013568887              1,130      page-faults               #    0.002 M/sec                  
-    21.013568887        848,468,645      cycles                    #    1.611 GHz                    
-    21.013568887      1,955,091,059      instructions              #    2.20  insn per cycle         
-    21.013568887        425,775,331      branches                  #  808.498 M/sec                  
-    21.013568887          1,040,530      branch-misses             #    0.23% of all branches        
-    21.513890128             500.29 msec task-clock                #    1.001 CPUs utilized          
-    21.513890128                  1      context-switches          #    0.002 K/sec                  
-    21.513890128                  0      cpu-migrations            #    0.000 K/sec                  
-    21.513890128              1,512      page-faults               #    0.003 M/sec                  
-    21.513890128        848,493,997      cycles                    #    1.613 GHz                    
-    21.513890128      1,942,393,237      instructions              #    2.18  insn per cycle         
-    21.513890128        422,809,523      branches                  #  803.801 M/sec                  
-    21.513890128          1,019,459      branch-misses             #    0.23% of all branches        
-    22.014206658             500.28 msec task-clock                #    1.001 CPUs utilized          
-    22.014206658                  1      context-switches          #    0.002 K/sec                  
-    22.014206658                  0      cpu-migrations            #    0.000 K/sec                  
-    22.014206658                845      page-faults               #    0.002 M/sec                  
-    22.014206658        848,487,576      cycles                    #    1.615 GHz                    
-    22.014206658      1,977,098,971      instructions              #    2.23  insn per cycle         
-    22.014206658        436,600,371      branches                  #  830.943 M/sec                  
-    22.014206658            989,748      branch-misses             #    0.22% of all branches        
-    22.514525709             500.28 msec task-clock                #    1.001 CPUs utilized          
-    22.514525709                  1      context-switches          #    0.002 K/sec                  
-    22.514525709                  0      cpu-migrations            #    0.000 K/sec                  
-    22.514525709                841      page-faults               #    0.002 M/sec                  
-    22.514525709        848,477,291      cycles                    #    1.617 GHz                    
-    22.514525709      2,066,876,097      instructions              #    2.33  insn per cycle         
-    22.514525709        501,209,540      branches                  #  954.923 M/sec                  
-    22.514525709            986,466      branch-misses             #    0.22% of all branches        
-    23.014853266             500.29 msec task-clock                #    1.001 CPUs utilized          
-    23.014853266                  1      context-switches          #    0.002 K/sec                  
-    23.014853266                  0      cpu-migrations            #    0.000 K/sec                  
-    23.014853266              1,136      page-faults               #    0.002 M/sec                  
-    23.014853266        848,498,970      cycles                    #    1.618 GHz                    
-    23.014853266      1,944,020,693      instructions              #    2.19  insn per cycle         
-    23.014853266        423,317,790      branches                  #  807.343 M/sec                  
-    23.014853266          1,059,037      branch-misses             #    0.24% of all branches        
-    23.515189107             500.28 msec task-clock                #    1.001 CPUs utilized          
-    23.515189107                  3      context-switches          #    0.006 K/sec                  
-    23.515189107                  0      cpu-migrations            #    0.000 K/sec                  
-    23.515189107              1,467      page-faults               #    0.003 M/sec                  
-    23.515189107        848,463,574      cycles                    #    1.620 GHz                    
-    23.515189107      1,937,362,341      instructions              #    2.19  insn per cycle         
-    23.515189107        421,883,621      branches                  #  805.394 M/sec                  
-    23.515189107          1,042,032      branch-misses             #    0.23% of all branches        
-    24.015502876             500.26 msec task-clock                #    1.001 CPUs utilized          
-    24.015502876                  3      context-switches          #    0.006 K/sec                  
-    24.015502876                  0      cpu-migrations            #    0.000 K/sec                  
-    24.015502876                800      page-faults               #    0.002 M/sec                  
-    24.015502876        848,440,502      cycles                    #    1.621 GHz                    
-    24.015502876      2,033,783,609      instructions              #    2.30  insn per cycle         
-    24.015502876        479,381,946      branches                  #  916.019 M/sec                  
-    24.015502876            958,318      branch-misses             #    0.21% of all branches        
-    24.515819451             500.28 msec task-clock                #    1.001 CPUs utilized          
-    24.515819451                  1      context-switches          #    0.002 K/sec                  
-    24.515819451                  0      cpu-migrations            #    0.000 K/sec                  
-    24.515819451                925      page-faults               #    0.002 M/sec                  
-    24.515819451        848,481,754      cycles                    #    1.623 GHz                    
-    24.515819451      1,997,823,044      instructions              #    2.26  insn per cycle         
-    24.515819451        455,559,314      branches                  #  871.281 M/sec                  
-    24.515819451          1,010,035      branch-misses             #    0.23% of all branches        
-    25.016137210             500.28 msec task-clock                #    1.001 CPUs utilized          
-    25.016137210                  1      context-switches          #    0.002 K/sec                  
-    25.016137210                  0      cpu-migrations            #    0.000 K/sec                  
-    25.016137210              1,140      page-faults               #    0.002 M/sec                  
-    25.016137210        848,479,937      cycles                    #    1.624 GHz                    
-    25.016137210      1,941,237,132      instructions              #    2.20  insn per cycle         
-    25.016137210        422,782,032      branches                  #  809.292 M/sec                  
-    25.016137210          1,065,224      branch-misses             #    0.24% of all branches        
+    13.033524378      1,396,729,603      cycles                                                      
+    13.033524378      3,554,005,685      instructions              #    1.58  insn per cycle         
+    13.033524378        582,844,417      branches                                                    
+    13.033524378          1,675,181      branch-misses             #    0.27% of all branches        
+    13.033524378         15,401,403      L1-dcache-load-misses                                       
+    13.033524378          1,320,871      L1-icache-load-misses                                       
+    13.033524378            756,899      LLC-load-misses                                             
+    13.033524378            716,092      LLC-store-misses                                            
+    13.033524378         15,121,164      l2_rqsts.miss                                               
+    13.533843046      1,241,041,585      cycles                                                      
+    13.533843046      3,226,138,898      instructions              #    1.46  insn per cycle         
+    13.533843046        538,012,449      branches                                                    
+    13.533843046            710,121      branch-misses             #    0.11% of all branches        
+    13.533843046         13,146,844      L1-dcache-load-misses                                       
+    13.533843046          1,081,218      L1-icache-load-misses                                       
+    13.533843046            676,904      LLC-load-misses                                             
+    13.533843046            672,607      LLC-store-misses                                            
+    13.533843046         12,463,009      l2_rqsts.miss                                               
+    14.034297364      2,135,899,288      cycles                                                      
+    14.034297364      5,715,472,991      instructions              #    2.59  insn per cycle         
+    14.034297364        958,331,819      branches                                                    
+    14.034297364          1,103,411      branch-misses             #    0.18% of all branches        
+    14.034297364         22,705,046      L1-dcache-load-misses                                       
+    14.034297364          1,123,376      L1-icache-load-misses                                       
+    14.034297364          1,516,394      LLC-load-misses                                             
+    14.034297364            721,829      LLC-store-misses                                            
+    14.034297364         20,551,799      l2_rqsts.miss                                               
+    14.534802641      2,833,070,110      cycles                                                      
+    14.534802641      7,456,882,671      instructions              #    3.35  insn per cycle         
+    14.534802641      1,214,247,343      branches                                                    
+    14.534802641          2,330,206      branch-misses             #    0.36% of all branches        
+    14.534802641         29,606,232      L1-dcache-load-misses                                       
+    14.534802641          1,794,089      L1-icache-load-misses                                       
+    14.534802641          1,769,412      LLC-load-misses                                             
+    14.534802641            713,334      LLC-store-misses                                            
+    14.534802641         24,999,451      l2_rqsts.miss                                               
+    15.035330474      2,618,449,159      cycles                                                      
+    15.035330474      7,307,288,675      instructions              #    3.26  insn per cycle         
+    15.035330474      1,224,679,742      branches                                                    
+    15.035330474          1,517,469      branch-misses             #    0.23% of all branches        
+    15.035330474         28,663,600      L1-dcache-load-misses                                       
+    15.035330474            946,207      L1-icache-load-misses                                       
+    15.035330474          1,778,291      LLC-load-misses                                             
+    15.035330474            506,897      LLC-store-misses                                            
+    15.035330474         23,865,174      l2_rqsts.miss                                               
+    15.535805168      2,995,194,868      cycles                                                      
+    15.535805168      6,629,950,408      instructions              #    2.93  insn per cycle         
+    15.535805168      1,090,322,178      branches                                                    
+    15.535805168         10,895,666      branch-misses             #    1.60% of all branches        
+    15.535805168         45,000,250      L1-dcache-load-misses                                       
+    15.535805168         23,449,859      L1-icache-load-misses                                       
+    15.535805168          1,060,294      LLC-load-misses                                             
+    15.535805168            350,472      LLC-store-misses                                            
+    15.535805168         28,445,062      l2_rqsts.miss                                               
+    16.036357414      3,034,934,226      cycles                                                      
+    16.036357414      5,923,293,580      instructions              #    2.59  insn per cycle         
+    16.036357414        980,929,714      branches                                                    
+    16.036357414         10,472,010      branch-misses             #    1.51% of all branches        
+    16.036357414         35,752,594      L1-dcache-load-misses                                       
+    16.036357414         11,976,690      L1-icache-load-misses                                       
+    16.036357414          1,335,561      LLC-load-misses                                             
+    16.036357414            693,805      LLC-store-misses                                            
+    16.036357414         22,259,527      l2_rqsts.miss                                               
+    16.536897659      2,591,133,076      cycles                                                      
+    16.536897659      6,229,944,604      instructions              #    2.71  insn per cycle         
+    16.536897659      1,022,326,535      branches                                                    
+    16.536897659          4,319,016      branch-misses             #    0.62% of all branches        
+    16.536897659         24,599,365      L1-dcache-load-misses                                       
+    16.536897659          1,090,564      L1-icache-load-misses                                       
+    16.536897659          1,494,825      LLC-load-misses                                             
+    16.536897659            581,652      LLC-store-misses                                            
+    16.536897659         16,654,265      l2_rqsts.miss                                               
+    17.037416651      1,933,591,328      cycles                                                      
+    17.037416651      5,326,957,385      instructions              #    2.33  insn per cycle         
+    17.037416651        817,703,739      branches                                                    
+    17.037416651          3,870,596      branch-misses             #    0.55% of all branches        
+    17.037416651         18,281,585      L1-dcache-load-misses                                       
+    17.037416651            608,274      L1-icache-load-misses                                       
+    17.037416651            721,099      LLC-load-misses                                             
+    17.037416651            631,868      LLC-store-misses                                            
+    17.037416651         13,702,790      l2_rqsts.miss                                               
+    17.537833316      1,973,045,617      cycles                                                      
+    17.537833316      4,950,530,243      instructions              #    2.17  insn per cycle         
+    17.537833316        822,255,510      branches                                                    
+    17.537833316          3,694,811      branch-misses             #    0.52% of all branches        
+    17.537833316         17,898,589      L1-dcache-load-misses                                       
+    17.537833316            581,486      L1-icache-load-misses                                       
+    17.537833316          1,344,887      LLC-load-misses                                             
+    17.537833316            600,895      LLC-store-misses                                            
+    17.537833316         13,585,336      l2_rqsts.miss                                               
+    18.038306235      2,554,138,571      cycles                                                      
+    18.038306235      6,637,605,986      instructions              #    2.91  insn per cycle         
+    18.038306235      1,060,067,916      branches                                                    
+    18.038306235          4,299,936      branch-misses             #    0.60% of all branches        
+    18.038306235         25,014,616      L1-dcache-load-misses                                       
+    18.038306235            633,034      L1-icache-load-misses                                       
+    18.038306235          1,411,922      LLC-load-misses                                             
+    18.038306235            613,290      LLC-store-misses                                            
+    18.038306235         17,724,699      l2_rqsts.miss                                               
+    18.538814934      1,502,848,079      cycles                                                      
+    18.538814934      3,979,651,608      instructions              #    1.76  insn per cycle         
+    18.538814934        617,114,328      branches                                                    
+    18.538814934          3,490,909      branch-misses             #    0.49% of all branches        
+    18.538814934         13,882,723      L1-dcache-load-misses                                       
+    18.538814934            713,696      L1-icache-load-misses                                       
+    18.538814934            674,426      LLC-load-misses                                             
+    18.538814934            593,558      LLC-store-misses                                            
+    18.538814934         10,141,480      l2_rqsts.miss                                               
+    19.039248154      1,124,186,206      cycles                                                      
+    19.039248154      2,610,433,501      instructions              #    1.17  insn per cycle         
+    19.039248154        429,377,899      branches                                                    
+    19.039248154          3,610,764      branch-misses             #    0.51% of all branches        
+    19.039248154          9,378,110      L1-dcache-load-misses                                       
+    19.039248154            694,836      L1-icache-load-misses                                       
+    19.039248154            904,907      LLC-load-misses                                             
+    19.039248154            576,965      LLC-store-misses                                            
+    19.039248154          6,502,981      l2_rqsts.miss                                               
+    19.539724533      2,536,102,714      cycles                                                      
+    19.539724533      6,525,813,968      instructions              #    2.91  insn per cycle         
+    19.539724533      1,082,143,122      branches                                                    
+    19.539724533          3,483,817      branch-misses             #    0.49% of all branches        
+    19.539724533         24,256,356      L1-dcache-load-misses                                       
+    19.539724533            694,309      L1-icache-load-misses                                       
+    19.539724533          1,399,501      LLC-load-misses                                             
+    19.539724533            598,821      LLC-store-misses                                            
+    19.539724533         17,712,396      l2_rqsts.miss                                               
+    20.040249930      2,452,909,989      cycles                                                      
+    20.040249930      6,438,044,862      instructions              #    2.87  insn per cycle         
+    20.040249930        989,886,776      branches                                                    
+    20.040249930          4,396,669      branch-misses             #    0.61% of all branches        
+    20.040249930         23,317,196      L1-dcache-load-misses                                       
+    20.040249930            739,571      L1-icache-load-misses                                       
+    20.040249930          1,127,786      LLC-load-misses                                             
+    20.040249930            608,857      LLC-store-misses                                            
+    20.040249930         17,535,531      l2_rqsts.miss                                               
+    20.540721662        889,084,328      cycles                                                      
+    20.540721662      2,112,409,175      instructions              #    0.95  insn per cycle         
+    20.540721662        344,674,349      branches                                                    
+    20.540721662          3,213,684      branch-misses             #    0.45% of all branches        
+    20.540721662          7,466,169      L1-dcache-load-misses                                       
+    20.540721662            490,834      L1-icache-load-misses                                       
+    20.540721662            647,845      LLC-load-misses                                             
+    20.540721662            589,840      LLC-store-misses                                            
+    20.540721662          4,730,850      l2_rqsts.miss                                               
+    21.041206622      1,843,559,719      cycles                                                      
+    21.041206622      4,657,254,133      instructions              #    2.11  insn per cycle         
+    21.041206622        772,413,073      branches                                                    
+    21.041206622          3,787,983      branch-misses             #    0.53% of all branches        
+    21.041206622         16,775,978      L1-dcache-load-misses                                       
+    21.041206622            555,291      L1-icache-load-misses                                       
+    21.041206622          1,291,467      LLC-load-misses                                             
+    21.041206622            611,328      LLC-store-misses                                            
+    21.041206622         12,784,264      l2_rqsts.miss                                               
+    21.541694454      2,579,504,440      cycles                                                      
+    21.541694454      6,410,399,399      instructions              #    2.90  insn per cycle         
+    21.541694454      1,034,872,538      branches                                                    
+    21.541694454          4,190,584      branch-misses             #    0.58% of all branches        
+    21.541694454         24,525,693      L1-dcache-load-misses                                       
+    21.541694454            681,927      L1-icache-load-misses                                       
+    21.541694454          1,455,305      LLC-load-misses                                             
+    21.541694454            597,104      LLC-store-misses                                            
+    21.541694454         17,237,244      l2_rqsts.miss                                               
+    22.042164348      1,733,537,955      cycles                                                      
+    22.042164348      4,534,785,907      instructions              #    2.06  insn per cycle         
+    22.042164348        699,102,046      branches                                                    
+    22.042164348          3,537,486      branch-misses             #    0.49% of all branches        
+    22.042164348         15,610,166      L1-dcache-load-misses                                       
+    22.042164348            549,405      L1-icache-load-misses                                       
+    22.042164348            684,438      LLC-load-misses                                             
+    22.042164348            612,944      LLC-store-misses                                            
+    22.042164348         11,697,100      l2_rqsts.miss                                               
+    22.542591444        862,843,883      cycles                                                      
+    22.542591444      2,100,424,119      instructions              #    0.97  insn per cycle         
+    22.542591444        342,485,802      branches                                                    
+    22.542591444          3,204,673      branch-misses             #    0.45% of all branches        
+    22.542591444          7,426,788      L1-dcache-load-misses                                       
+    22.542591444            447,206      L1-icache-load-misses                                       
+    22.542591444            643,487      LLC-load-misses                                             
+    22.542591444            592,300      LLC-store-misses                                            
+    22.542591444          4,734,784      l2_rqsts.miss                                               
+    23.043043700      2,204,254,890      cycles                                                      
+    23.043043700      5,658,917,105      instructions              #    2.60  insn per cycle         
+    23.043043700        940,774,080      branches                                                    
+    23.043043700          3,816,593      branch-misses             #    0.53% of all branches        
+    23.043043700         20,162,235      L1-dcache-load-misses                                       
+    23.043043700            553,127      L1-icache-load-misses                                       
+    23.043043700          1,437,063      LLC-load-misses                                             
+    23.043043700            616,997      LLC-store-misses                                            
+    23.043043700         15,396,805      l2_rqsts.miss                                               
+    23.543524963      2,961,591,517      cycles                                                      
+    23.543524963      6,320,994,978      instructions              #    2.89  insn per cycle         
+    23.543524963      1,036,127,137      branches                                                    
+    23.543524963         10,741,669      branch-misses             #    1.48% of all branches        
+    23.543524963         45,186,671      L1-dcache-load-misses                                       
+    23.543524963         18,739,698      L1-icache-load-misses                                       
+    23.543524963          4,039,042      LLC-load-misses                                             
+    23.543524963            330,232      LLC-store-misses                                            
+    23.543524963         30,966,876      l2_rqsts.miss                                               
+    24.044036502      1,408,491,020      cycles                                                      
+    24.044036502      3,154,718,589      instructions              #    1.45  insn per cycle         
+    24.044036502        448,495,928      branches                                                    
+    24.044036502          6,593,741      branch-misses             #    0.91% of all branches        
+    24.044036502         29,586,930      L1-dcache-load-misses                                       
+    24.044036502         12,645,112      L1-icache-load-misses                                       
+    24.044036502          5,402,199      LLC-load-misses                                             
+    24.044036502            116,381      LLC-store-misses                                            
+    24.044036502         17,615,205      l2_rqsts.miss                                               
+    24.544518888        775,636,471      cycles                                                      
+    24.544518888      2,462,057,866      instructions              #    1.15  insn per cycle         
+    24.544518888        264,998,541      branches                                                    
+    24.544518888          1,164,521      branch-misses             #    0.16% of all branches        
+    24.544518888         19,558,127      L1-dcache-load-misses                                       
+    24.544518888          3,601,163      L1-icache-load-misses                                       
+    24.544518888            214,359      LLC-load-misses                                             
+    24.544518888            124,391      LLC-store-misses                                            
+    24.544518888         10,324,376      l2_rqsts.miss                                               
+    25.045101550      1,200,798,603      cycles                                                      
+    25.045101550      3,256,656,693      instructions              #    1.53  insn per cycle         
+    25.045101550        398,841,704      branches                                                    
+    25.045101550          3,450,021      branch-misses             #    0.49% of all branches        
+    25.045101550         24,491,629      L1-dcache-load-misses                                       
+    25.045101550          4,286,060      L1-icache-load-misses                                       
+    25.045101550            747,973      LLC-load-misses                                             
+    25.045101550            153,799      LLC-store-misses                                            
+    25.045101550         13,672,950      l2_rqsts.miss                                               
 #           time             counts unit events
-    25.516452226             500.27 msec task-clock                #    1.001 CPUs utilized          
-    25.516452226                  2      context-switches          #    0.004 K/sec                  
-    25.516452226                  0      cpu-migrations            #    0.000 K/sec                  
-    25.516452226              1,424      page-faults               #    0.003 M/sec                  
-    25.516452226        848,449,136      cycles                    #    1.625 GHz                    
-    25.516452226      1,944,022,000      instructions              #    2.20  insn per cycle         
-    25.516452226        423,597,686      branches                  #  811.527 M/sec                  
-    25.516452226          1,018,162      branch-misses             #    0.23% of all branches        
-    26.016782329             500.26 msec task-clock                #    1.001 CPUs utilized          
-    26.016782329                  2      context-switches          #    0.004 K/sec                  
-    26.016782329                  0      cpu-migrations            #    0.000 K/sec                  
-    26.016782329                772      page-faults               #    0.001 M/sec                  
-    26.016782329        848,451,308      cycles                    #    1.627 GHz                    
-    26.016782329      2,083,122,633      instructions              #    2.36  insn per cycle         
-    26.016782329        510,700,232      branches                  #  979.182 M/sec                  
-    26.016782329            910,531      branch-misses             #    0.20% of all branches        
-    26.517103979             500.29 msec task-clock                #    1.001 CPUs utilized          
-    26.517103979                  1      context-switches          #    0.002 K/sec                  
-    26.517103979                  0      cpu-migrations            #    0.000 K/sec                  
-    26.517103979              1,005      page-faults               #    0.002 M/sec                  
-    26.517103979        848,486,927      cycles                    #    1.628 GHz                    
-    26.517103979      1,950,020,891      instructions              #    2.21  insn per cycle         
-    26.517103979        424,322,400      branches                  #  814.193 M/sec                  
-    26.517103979          1,019,623      branch-misses             #    0.23% of all branches        
-    27.017421968             500.27 msec task-clock                #    1.001 CPUs utilized          
-    27.017421968                  2      context-switches          #    0.004 K/sec                  
-    27.017421968                  0      cpu-migrations            #    0.000 K/sec                  
-    27.017421968              1,143      page-faults               #    0.002 M/sec                  
-    27.017421968        848,458,744      cycles                    #    1.629 GHz                    
-    27.017421968      1,948,715,435      instructions              #    2.21  insn per cycle         
-    27.017421968        424,289,361      branches                  #  814.734 M/sec                  
-    27.017421968          1,041,790      branch-misses             #    0.23% of all branches        
-    27.517743167             500.27 msec task-clock                #    1.001 CPUs utilized          
-    27.517743167                  3      context-switches          #    0.006 K/sec                  
-    27.517743167                  0      cpu-migrations            #    0.000 K/sec                  
-    27.517743167              1,378      page-faults               #    0.003 M/sec                  
-    27.517743167        848,448,086      cycles                    #    1.630 GHz                    
-    27.517743167      1,960,016,805      instructions              #    2.23  insn per cycle         
-    27.517743167        427,180,396      branches                  #  820.873 M/sec                  
-    27.517743167            990,099      branch-misses             #    0.22% of all branches        
-    28.018075386             500.28 msec task-clock                #    1.001 CPUs utilized          
-    28.018075386                  3      context-switches          #    0.006 K/sec                  
-    28.018075386                  0      cpu-migrations            #    0.000 K/sec                  
-    28.018075386                774      page-faults               #    0.001 M/sec                  
-    28.018075386        848,460,710      cycles                    #    1.632 GHz                    
-    28.018075386      2,086,270,855      instructions              #    2.37  insn per cycle         
-    28.018075386        511,114,556      branches                  #  982.841 M/sec                  
-    28.018075386            922,028      branch-misses             #    0.21% of all branches        
-    28.518398802             500.31 msec task-clock                #    1.001 CPUs utilized          
-    28.518398802                  0      context-switches          #    0.000 K/sec                  
-    28.518398802                  0      cpu-migrations            #    0.000 K/sec                  
-    28.518398802              1,053      page-faults               #    0.002 M/sec                  
-    28.518398802        848,521,930      cycles                    #    1.633 GHz                    
-    28.518398802      1,952,470,954      instructions              #    2.22  insn per cycle         
-    28.518398802        424,908,904      branches                  #  817.617 M/sec                  
-    28.518398802          1,020,049      branch-misses             #    0.23% of all branches        
-    29.018707168             500.27 msec task-clock                #    1.001 CPUs utilized          
-    29.018707168                  1      context-switches          #    0.002 K/sec                  
-    29.018707168                  0      cpu-migrations            #    0.000 K/sec                  
-    29.018707168              1,149      page-faults               #    0.002 M/sec                  
-    29.018707168        848,462,252      cycles                    #    1.634 GHz                    
-    29.018707168      1,953,904,957      instructions              #    2.22  insn per cycle         
-    29.018707168        425,507,819      branches                  #  819.297 M/sec                  
-    29.018707168          1,047,165      branch-misses             #    0.23% of all branches        
-    29.519019296             500.28 msec task-clock                #    1.001 CPUs utilized          
-    29.519019296                  1      context-switches          #    0.002 K/sec                  
-    29.519019296                  0      cpu-migrations            #    0.000 K/sec                  
-    29.519019296              1,345      page-faults               #    0.003 M/sec                  
-    29.519019296        848,477,063      cycles                    #    1.635 GHz                    
-    29.519019296      1,950,624,755      instructions              #    2.22  insn per cycle         
-    29.519019296        425,292,465      branches                  #  819.393 M/sec                  
-    29.519019296          1,024,724      branch-misses             #    0.23% of all branches        
-    30.019331881             500.28 msec task-clock                #    1.001 CPUs utilized          
-    30.019331881                  1      context-switches          #    0.002 K/sec                  
-    30.019331881                  0      cpu-migrations            #    0.000 K/sec                  
-    30.019331881                783      page-faults               #    0.002 M/sec                  
-    30.019331881        848,471,881      cycles                    #    1.636 GHz                    
-    30.019331881      2,087,165,056      instructions              #    2.38  insn per cycle         
-    30.019331881        511,318,900      branches                  #  985.730 M/sec                  
-    30.019331881            946,835      branch-misses             #    0.21% of all branches        
-    30.519671605             500.29 msec task-clock                #    1.001 CPUs utilized          
-    30.519671605                  2      context-switches          #    0.004 K/sec                  
-    30.519671605                  0      cpu-migrations            #    0.000 K/sec                  
-    30.519671605              1,080      page-faults               #    0.002 M/sec                  
-    30.519671605        848,483,942      cycles                    #    1.637 GHz                    
-    30.519671605      1,949,251,235      instructions              #    2.22  insn per cycle         
-    30.519671605        424,079,477      branches                  #  818.025 M/sec                  
-    30.519671605          1,033,358      branch-misses             #    0.23% of all branches        
-    31.019997964             500.28 msec task-clock                #    1.001 CPUs utilized          
-    31.019997964                  2      context-switches          #    0.004 K/sec                  
-    31.019997964                  0      cpu-migrations            #    0.000 K/sec                  
-    31.019997964              1,143      page-faults               #    0.002 M/sec                  
-    31.019997964        848,477,416      cycles                    #    1.638 GHz                    
-    31.019997964      1,950,061,582      instructions              #    2.22  insn per cycle         
-    31.019997964        424,440,395      branches                  #  819.183 M/sec                  
-    31.019997964            982,490      branch-misses             #    0.22% of all branches        
-    31.520314278             500.24 msec task-clock                #    1.000 CPUs utilized          
-    31.520314278                  5      context-switches          #    0.010 K/sec                  
-    31.520314278                  0      cpu-migrations            #    0.000 K/sec                  
-    31.520314278              1,332      page-faults               #    0.003 M/sec                  
-    31.520314278        848,395,181      cycles                    #    1.638 GHz                    
-    31.520314278      1,948,419,519      instructions              #    2.22  insn per cycle         
-    31.520314278        424,715,989      branches                  #  820.164 M/sec                  
-    31.520314278            980,584      branch-misses             #    0.22% of all branches        
-    32.020625399             500.27 msec task-clock                #    1.001 CPUs utilized          
-    32.020625399                  2      context-switches          #    0.004 K/sec                  
-    32.020625399                  0      cpu-migrations            #    0.000 K/sec                  
-    32.020625399                690      page-faults               #    0.001 M/sec                  
-    32.020625399        848,453,236      cycles                    #    1.639 GHz                    
-    32.020625399      1,951,694,105      instructions              #    2.23  insn per cycle         
-    32.020625399        435,817,833      branches                  #  842.050 M/sec                  
-    32.020625399          1,096,014      branch-misses             #    0.25% of all branches        
-    32.520971730             500.27 msec task-clock                #    1.001 CPUs utilized          
-    32.520971730                  3      context-switches          #    0.006 K/sec                  
-    32.520971730                  0      cpu-migrations            #    0.000 K/sec                  
-    32.520971730                184      page-faults               #    0.356 K/sec                  
-    32.520971730        848,442,987      cycles                    #    1.640 GHz                    
-    32.520971730      1,948,578,836      instructions              #    2.23  insn per cycle         
-    32.520971730        446,230,388      branches                  #  862.611 M/sec                  
-    32.520971730          1,121,251      branch-misses             #    0.25% of all branches        
-    33.021320240             500.31 msec task-clock                #    1.001 CPUs utilized          
-    33.021320240                  1      context-switches          #    0.002 K/sec                  
-    33.021320240                  0      cpu-migrations            #    0.000 K/sec                  
-    33.021320240                641      page-faults               #    0.001 M/sec                  
-    33.021320240        848,532,076      cycles                    #    1.641 GHz                    
-    33.021320240      1,942,493,496      instructions              #    2.22  insn per cycle         
-    33.021320240        444,773,455      branches                  #  860.223 M/sec                  
-    33.021320240          1,637,510      branch-misses             #    0.37% of all branches        
-    33.521676281             500.33 msec task-clock                #    1.001 CPUs utilized          
-    33.521676281                  1      context-switches          #    0.002 K/sec                  
-    33.521676281                  0      cpu-migrations            #    0.000 K/sec                  
-    33.521676281              1,493      page-faults               #    0.003 M/sec                  
-    33.521676281        848,553,012      cycles                    #    1.642 GHz                    
-    33.521676281      1,905,959,383      instructions              #    2.18  insn per cycle         
-    33.521676281        439,158,069      branches                  #  849.773 M/sec                  
-    33.521676281            991,548      branch-misses             #    0.22% of all branches        
-    34.022008289             500.28 msec task-clock                #    1.001 CPUs utilized          
-    34.022008289                  2      context-switches          #    0.004 K/sec                  
-    34.022008289                  0      cpu-migrations            #    0.000 K/sec                  
-    34.022008289                767      page-faults               #    0.001 M/sec                  
-    34.022008289        848,464,557      cycles                    #    1.643 GHz                    
-    34.022008289      2,052,064,341      instructions              #    2.35  insn per cycle         
-    34.022008289        447,044,678      branches                  #  865.440 M/sec                  
-    34.022008289            946,304      branch-misses             #    0.21% of all branches        
-    34.522343957             500.30 msec task-clock                #    1.001 CPUs utilized          
-    34.522343957                  1      context-switches          #    0.002 K/sec                  
-    34.522343957                  0      cpu-migrations            #    0.000 K/sec                  
-    34.522343957                  0      page-faults               #    0.000 K/sec                  
-    34.522343957        848,511,024      cycles                    #    1.643 GHz                    
-    34.522343957      2,097,698,863      instructions              #    2.40  insn per cycle         
-    34.522343957        450,319,247      branches                  #  872.177 M/sec                  
-    34.522343957            874,685      branch-misses             #    0.20% of all branches        
-    35.022671330             500.30 msec task-clock                #    1.001 CPUs utilized          
-    35.022671330                  1      context-switches          #    0.002 K/sec                  
-    35.022671330                  0      cpu-migrations            #    0.000 K/sec                  
-    35.022671330                  0      page-faults               #    0.000 K/sec                  
-    35.022671330        848,502,482      cycles                    #    1.644 GHz                    
-    35.022671330      2,175,339,032      instructions              #    2.49  insn per cycle         
-    35.022671330        483,029,039      branches                  #  935.944 M/sec                  
-    35.022671330            708,098      branch-misses             #    0.16% of all branches        
-    35.522981696             500.25 msec task-clock                #    1.001 CPUs utilized          
-    35.522981696                  3      context-switches          #    0.006 K/sec                  
-    35.522981696                  0      cpu-migrations            #    0.000 K/sec                  
-    35.522981696                428      page-faults               #    0.830 K/sec                  
-    35.522981696        848,422,984      cycles                    #    1.645 GHz                    
-    35.522981696      2,221,017,687      instructions              #    2.54  insn per cycle         
-    35.522981696        493,759,078      branches                  #  957.149 M/sec                  
-    35.522981696            643,291      branch-misses             #    0.14% of all branches        
-    36.023317661             500.31 msec task-clock                #    1.001 CPUs utilized          
-    36.023317661                  1      context-switches          #    0.002 K/sec                  
-    36.023317661                  0      cpu-migrations            #    0.000 K/sec                  
-    36.023317661                616      page-faults               #    0.001 M/sec                  
-    36.023317661        848,531,560      cycles                    #    1.646 GHz                    
-    36.023317661      2,134,716,708      instructions              #    2.45  insn per cycle         
-    36.023317661        476,137,769      branches                  #  923.377 M/sec                  
-    36.023317661            820,806      branch-misses             #    0.18% of all branches        
-    36.523673512             563.77 msec task-clock                #    1.128 CPUs utilized          
-    36.523673512                  1      context-switches          #    0.002 K/sec                  
-    36.523673512                  3      cpu-migrations            #    0.006 K/sec                  
-    36.523673512              1,926      page-faults               #    0.004 M/sec                  
-    36.523673512        901,224,244      cycles                    #    1.746 GHz                    
-    36.523673512      2,003,020,637      instructions              #    2.29  insn per cycle         
-    36.523673512        419,378,454      branches                  #  812.265 M/sec                  
-    36.523673512            561,507      branch-misses             #    0.13% of all branches        
-    36.668722195           1,024.46 msec task-clock                #    2.049 CPUs utilized          
-    36.668722195                 44      context-switches          #    0.084 K/sec                  
-    36.668722195                  3      cpu-migrations            #    0.006 K/sec                  
-    36.668722195              1,470      page-faults               #    0.003 M/sec                  
-    36.668722195      1,567,712,185      cycles                    #    2.997 GHz                    
-    36.668722195      1,565,120,618      instructions              #    1.77  insn per cycle         
-    36.668722195        176,150,367      branches                  #  336.695 M/sec                  
-    36.668722195          2,804,871      branch-misses             #    0.63% of all branches        
+    25.545577458        781,506,050      cycles                                                      
+    25.545577458      2,476,252,309      instructions              #    1.18  insn per cycle         
+    25.545577458        271,376,422      branches                                                    
+    25.545577458          1,523,587      branch-misses             #    0.22% of all branches        
+    25.545577458         20,210,108      L1-dcache-load-misses                                       
+    25.545577458          3,440,422      L1-icache-load-misses                                       
+    25.545577458             93,384      LLC-load-misses                                             
+    25.545577458            157,224      LLC-store-misses                                            
+    25.545577458          9,755,243      l2_rqsts.miss                                               
+    26.046046864        757,198,043      cycles                                                      
+    26.046046864      2,493,613,656      instructions              #    1.20  insn per cycle         
+    26.046046864        267,582,234      branches                                                    
+    26.046046864          1,147,515      branch-misses             #    0.17% of all branches        
+    26.046046864         19,997,197      L1-dcache-load-misses                                       
+    26.046046864          2,068,237      L1-icache-load-misses                                       
+    26.046046864             97,936      LLC-load-misses                                             
+    26.046046864             74,996      LLC-store-misses                                            
+    26.046046864         10,126,718      l2_rqsts.miss                                               
+    26.546497486        652,079,866      cycles                                                      
+    26.546497486      2,378,428,164      instructions              #    1.16  insn per cycle         
+    26.546497486        241,073,805      branches                                                    
+    26.546497486            324,507      branch-misses             #    0.05% of all branches        
+    26.546497486         17,638,748      L1-dcache-load-misses                                       
+    26.546497486            825,037      L1-icache-load-misses                                       
+    26.546497486             32,255      LLC-load-misses                                             
+    26.546497486             42,783      LLC-store-misses                                            
+    26.546497486          9,045,553      l2_rqsts.miss                                               
+    27.046948326        667,064,214      cycles                                                      
+    27.046948326      2,343,952,711      instructions              #    1.16  insn per cycle         
+    27.046948326        239,058,916      branches                                                    
+    27.046948326            382,790      branch-misses             #    0.06% of all branches        
+    27.046948326         17,513,707      L1-dcache-load-misses                                       
+    27.046948326            824,741      L1-icache-load-misses                                       
+    27.046948326             67,830      LLC-load-misses                                             
+    27.046948326             59,376      LLC-store-misses                                            
+    27.046948326          9,253,734      l2_rqsts.miss                                               
+    27.547417887        652,374,202      cycles                                                      
+    27.547417887      2,393,901,331      instructions              #    1.20  insn per cycle         
+    27.547417887        242,581,696      branches                                                    
+    27.547417887            316,343      branch-misses             #    0.05% of all branches        
+    27.547417887         17,739,601      L1-dcache-load-misses                                       
+    27.547417887            710,331      L1-icache-load-misses                                       
+    27.547417887             35,981      LLC-load-misses                                             
+    27.547417887             38,847      LLC-store-misses                                            
+    27.547417887          9,107,323      l2_rqsts.miss                                               
+    28.047865492        672,639,963      cycles                                                      
+    28.047865492      2,325,004,985      instructions              #    1.18  insn per cycle         
+    28.047865492        237,265,158      branches                                                    
+    28.047865492            382,688      branch-misses             #    0.06% of all branches        
+    28.047865492         17,373,483      L1-dcache-load-misses                                       
+    28.047865492            857,596      L1-icache-load-misses                                       
+    28.047865492             64,745      LLC-load-misses                                             
+    28.047865492             61,072      LLC-store-misses                                            
+    28.047865492          9,152,671      l2_rqsts.miss                                               
+    28.548355655        652,146,145      cycles                                                      
+    28.548355655      2,391,134,115      instructions              #    1.23  insn per cycle         
+    28.548355655        242,284,997      branches                                                    
+    28.548355655            323,556      branch-misses             #    0.05% of all branches        
+    28.548355655         17,716,847      L1-dcache-load-misses                                       
+    28.548355655            760,619      L1-icache-load-misses                                       
+    28.548355655             33,860      LLC-load-misses                                             
+    28.548355655             38,282      LLC-store-misses                                            
+    28.548355655          9,098,389      l2_rqsts.miss                                               
+    29.048839692        679,826,262      cycles                                                      
+    29.048839692      2,340,047,705      instructions              #    1.21  insn per cycle         
+    29.048839692        238,840,333      branches                                                    
+    29.048839692            381,949      branch-misses             #    0.06% of all branches        
+    29.048839692         17,477,746      L1-dcache-load-misses                                       
+    29.048839692            850,548      L1-icache-load-misses                                       
+    29.048839692             68,414      LLC-load-misses                                             
+    29.048839692             53,636      LLC-store-misses                                            
+    29.048839692          9,225,447      l2_rqsts.miss                                               
+    29.549353510        652,084,917      cycles                                                      
+    29.549353510      2,390,264,597      instructions              #    1.25  insn per cycle         
+    29.549353510        242,173,526      branches                                                    
+    29.549353510            318,800      branch-misses             #    0.05% of all branches        
+    29.549353510         17,701,153      L1-dcache-load-misses                                       
+    29.549353510            712,568      L1-icache-load-misses                                       
+    29.549353510             32,327      LLC-load-misses                                             
+    29.549353510             39,123      LLC-store-misses                                            
+    29.549353510          9,065,073      l2_rqsts.miss                                               
+    30.049808488        656,214,490      cycles                                                      
+    30.049808488      2,318,977,842      instructions              #    1.23  insn per cycle         
+    30.049808488        236,408,653      branches                                                    
+    30.049808488            378,597      branch-misses             #    0.06% of all branches        
+    30.049808488         17,321,345      L1-dcache-load-misses                                       
+    30.049808488            831,841      L1-icache-load-misses                                       
+    30.049808488             69,429      LLC-load-misses                                             
+    30.049808488             52,580      LLC-store-misses                                            
+    30.049808488          9,144,617      l2_rqsts.miss                                               
+    30.550252508        641,441,156      cycles                                                      
+    30.550252508      2,349,463,847      instructions              #    1.26  insn per cycle         
+    30.550252508        238,118,354      branches                                                    
+    30.550252508            316,965      branch-misses             #    0.05% of all branches        
+    30.550252508         17,411,076      L1-dcache-load-misses                                       
+    30.550252508            717,670      L1-icache-load-misses                                       
+    30.550252508             36,167      LLC-load-misses                                             
+    30.550252508             38,065      LLC-store-misses                                            
+    30.550252508          8,966,980      l2_rqsts.miss                                               
+    31.050749214        686,549,959      cycles                                                      
+    31.050749214      2,336,443,655      instructions              #    1.27  insn per cycle         
+    31.050749214        238,544,142      branches                                                    
+    31.050749214            378,342      branch-misses             #    0.06% of all branches        
+    31.050749214         17,432,539      L1-dcache-load-misses                                       
+    31.050749214            844,469      L1-icache-load-misses                                       
+    31.050749214             69,490      LLC-load-misses                                             
+    31.050749214             53,176      LLC-store-misses                                            
+    31.050749214          9,191,976      l2_rqsts.miss                                               
+    31.551192178        652,046,707      cycles                                                      
+    31.551192178      2,373,767,846      instructions              #    1.30  insn per cycle         
+    31.551192178        240,519,668      branches                                                    
+    31.551192178            315,632      branch-misses             #    0.05% of all branches        
+    31.551192178         17,596,163      L1-dcache-load-misses                                       
+    31.551192178            757,133      L1-icache-load-misses                                       
+    31.551192178             35,654      LLC-load-misses                                             
+    31.551192178             38,402      LLC-store-misses                                            
+    31.551192178          9,044,424      l2_rqsts.miss                                               
+    32.051654562        935,437,643      cycles                                                      
+    32.051654562      2,112,835,820      instructions              #    1.17  insn per cycle         
+    32.051654562        289,598,713      branches                                                    
+    32.051654562          6,201,048      branch-misses             #    1.02% of all branches        
+    32.051654562         35,688,241      L1-dcache-load-misses                                       
+    32.051654562          8,899,188      L1-icache-load-misses                                       
+    32.051654562            275,232      LLC-load-misses                                             
+    32.051654562            108,143      LLC-store-misses                                            
+    32.051654562          9,399,550      l2_rqsts.miss                                               
+    32.552154058      1,427,333,561      cycles                                                      
+    32.552154058      3,011,699,976      instructions              #    1.67  insn per cycle         
+    32.552154058        430,740,318      branches                                                    
+    32.552154058          8,252,343      branch-misses             #    1.37% of all branches        
+    32.552154058         32,303,560      L1-dcache-load-misses                                       
+    32.552154058          8,275,160      L1-icache-load-misses                                       
+    32.552154058            202,718      LLC-load-misses                                             
+    32.552154058            126,616      LLC-store-misses                                            
+    32.552154058         22,243,613      l2_rqsts.miss                                               
+    33.052664471        852,019,513      cycles                                                      
+    33.052664471      2,227,549,342      instructions              #    1.24  insn per cycle         
+    33.052664471        223,103,831      branches                                                    
+    33.052664471          1,689,628      branch-misses             #    0.28% of all branches        
+    33.052664471         26,958,741      L1-dcache-load-misses                                       
+    33.052664471            213,811      L1-icache-load-misses                                       
+    33.052664471             42,284      LLC-load-misses                                             
+    33.052664471             12,852      LLC-store-misses                                            
+    33.052664471         27,190,068      l2_rqsts.miss                                               
+    33.553159631        852,024,589      cycles                                                      
+    33.553159631      2,225,635,308      instructions              #    1.25  insn per cycle         
+    33.553159631        222,937,496      branches                                                    
+    33.553159631          1,691,659      branch-misses             #    0.29% of all branches        
+    33.553159631         26,941,997      L1-dcache-load-misses                                       
+    33.553159631            231,148      L1-icache-load-misses                                       
+    33.553159631             44,345      LLC-load-misses                                             
+    33.553159631             13,513      LLC-store-misses                                            
+    33.553159631         27,184,558      l2_rqsts.miss                                               
+    34.053647545        851,773,125      cycles                                                      
+    34.053647545      2,227,094,402      instructions              #    1.26  insn per cycle         
+    34.053647545        223,027,698      branches                                                    
+    34.053647545          1,690,695      branch-misses             #    0.29% of all branches        
+    34.053647545         26,960,029      L1-dcache-load-misses                                       
+    34.053647545            210,044      L1-icache-load-misses                                       
+    34.053647545             37,967      LLC-load-misses                                             
+    34.053647545             12,762      LLC-store-misses                                            
+    34.053647545         27,170,527      l2_rqsts.miss                                               
+    34.554099578        836,484,453      cycles                                                      
+    34.554099578      2,184,585,723      instructions              #    1.25  insn per cycle         
+    34.554099578        218,829,285      branches                                                    
+    34.554099578          1,660,799      branch-misses             #    0.29% of all branches        
+    34.554099578         26,449,462      L1-dcache-load-misses                                       
+    34.554099578            229,342      L1-icache-load-misses                                       
+    34.554099578             44,929      LLC-load-misses                                             
+    34.554099578             13,171      LLC-store-misses                                            
+    34.554099578         26,688,267      l2_rqsts.miss                                               
+    35.040890946      1,474,948,043      cycles                                                      
+    35.040890946      2,530,776,802      instructions              #    1.45  insn per cycle         
+    35.040890946        412,341,918      branches                                                    
+    35.040890946          8,905,680      branch-misses             #    1.54% of all branches        
+    35.040890946         41,258,522      L1-dcache-load-misses                                       
+    35.040890946         23,588,707      L1-icache-load-misses                                       
+    35.040890946            836,646      LLC-load-misses                                             
+    35.040890946            265,418      LLC-store-misses                                            
+    35.040890946         22,381,109      l2_rqsts.miss                                               
