@@ -4,10 +4,10 @@ import numpy as np
 np.random.seed(2019)
 
 dim_lst = []
-for i in range(6):
+for i in range(8):
 	dim_lst.append(4*(2**i))
 total_sample_lst = []
-for i in range(6):
+for i in range(8):
 	total_sample_lst.append(1000*(2**i))
 
 total_class = 2

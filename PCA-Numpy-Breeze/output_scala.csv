@@ -1,2 +1,2 @@
 dim,total_sample,total_class,reduced_dim,data_time,total_time,memory_usage}
-128,32000,2,2,12591.042827,25041.500915,658
+128,32000,2,2,11952.400879,24370.904302,633
