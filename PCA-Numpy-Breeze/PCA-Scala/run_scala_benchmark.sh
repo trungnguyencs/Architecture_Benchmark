@@ -1,6 +1,6 @@
 # sudo perf stat -o ../results/scala/scala-4-32000.txt sbt run
 # sudo perf stat -o ../results/scala/interval500.csv -x, -I 500 sbt run
-sudo perf stat -o ../results/py/interval500.txt -e \
+sudo perf stat -o ../results/scala/interval500.txt -e \
 cycles,\
 instructions,\
 branches,\
@@ -11,7 +11,7 @@ LLC-load-misses,\
 LLC-store-misses,\
 l2_rqsts.miss\
  -I 500 sbt run
-# sudo perf stat -o ../results/py/interval500.csv -x, -e \
+# sudo perf stat -o ../results/scala/interval500.csv -x, -e \
 # cycles,\
 # instructions,\
 # branches,\
